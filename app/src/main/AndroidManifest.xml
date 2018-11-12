@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aloramirez.tourister_app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Main"
+            android:label="TouristER"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="Iniciar Sesión" />
+        <activity
+            android:name=".Register"
+            android:label="Registrarse" />
+        <activity
+            android:name=".RecoverPassword"
+            android:label="Recuperar Contraseña" />
+        <activity
+            android:name=".Rutas"
+            android:label="Rutas" />
+        <activity
+            android:name=".ChangePassword"
+            android:label="Cambiar Contraseña" />
+        <activity
+            android:name=".Language"
+            android:label="Seleccionar Idioma" />
+        <activity
+            android:name=".CompraUno"
+            android:label="Comprar Boletos" />
+        <activity
+            android:name=".CompraDos"
+            android:label="Comprar Boletos" />
+        <activity
+            android:name=".Tickets"
+            android:label="Mis Boletos" />
+        <activity
+            android:name=".BoletosInfoUno"
+            android:label="Información Boletos" />
+        <activity
+            android:name=".BoletosInfoDos"
+            android:label="Información Boletos" />
+        <activity
+            android:name=".BoletosInfoTres"
+            android:label="Información Boletos"/>
+        <activity
+            android:name=".BoletosInfoCuatro"
+            android:label="Información Boletos"/>
+    </application>
+
+</manifest>
