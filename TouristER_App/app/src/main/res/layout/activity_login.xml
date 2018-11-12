@@ -74,46 +74,24 @@
         android:id="@+id/facebook"
         android:layout_width="75dp"
         android:layout_height="75dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/twitter"
-        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintEnd_toStartOf="@+id/google"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/accedeCon"
         app:layout_constraintVertical_bias="0.057"
         app:srcCompat="@drawable/facebook" />
 
     <ImageView
-        android:id="@+id/twitter"
-        android:layout_width="78dp"
-        android:layout_height="75dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/accedeCon"
-        app:layout_constraintVertical_bias="0.057"
-        app:srcCompat="@drawable/twitter" />
-
-    <ImageView
         android:id="@+id/google"
         android:layout_width="75dp"
         android:layout_height="75dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.407"
-        app:layout_constraintStart_toEndOf="@+id/twitter"
+        app:layout_constraintStart_toEndOf="@+id/facebook"
         app:layout_constraintTop_toBottomOf="@+id/accedeCon"
         app:layout_constraintVertical_bias="0.057"
         app:srcCompat="@drawable/google" />
@@ -137,7 +115,7 @@
         android:layout_width="wrap_content"
         android:layout_height="27dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:text="Registrarse"
@@ -147,8 +125,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/twitter"
-        app:layout_constraintVertical_bias="0.106" />
+        app:layout_constraintTop_toBottomOf="@+id/google" />
 
     <android.support.v7.widget.CardView
         android:id="@+id/enviar_button"
